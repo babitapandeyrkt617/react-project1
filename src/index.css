@@ -1,13 +1,254 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* header section */
+.main-header{
+  background-color:#000000;
+  display: flex;
+  height: 101px;
+  position: sticky;
+  justify-content: space-between;
+  top: 0;
+}
+.pic img{
+  height: 98px;
+  margin-left: 366px;
+  margin-top: 1px;
+}
+.item{
+  display:flex;
+  margin-right: 100px;
+}
+.item li {
+  list-style: none;
+  margin: 30px;
+
+}
+a{
+  color:#FFFFFF;
+  font-size: 21px;
+  text-decoration: none;
+}
+/* secondsection */
+.main{
+  margin-top: -22px;
+
+}
+.container1{
+  height: 600px;
+
+}
+.text{
+  text-align: center;
+  color: rgb(255, 187, 0);
+  font-size: 47px;
+  display: inline-block;
+  margin-top: 115px;
+  margin-left: 670px;
+
+}
+.text-1{
+  text-align: center;
+  font-size: 47px;
+  color: rgb(255, 255, 255);
+}
+.second-sec-button{
+  border-radius:30px
+}
+/* thiredsection */
+.head{
+  text-align: center;
+  display: inline-block;
+}
+.container4{
+  height: 580px;
+  background-color: #dfe9ff;
+
+}
+.container{
+  display: flex;
+  gap: 110px;
+  justify-content: center;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card{
+  background-color:#fff;
+  width: 400px;
+  height: 430px;
+  margin-top: 39px;
+  margin-left: -86px;
+  border:1px solid gray
 }
+
+.pic1{
+  width: 400px;
+  height:220px
+}
+.section{
+  display:flex;
+}
+.section img{
+  width: 20px;
+  height:20px;
+  margin-top:10px
+  
+}
+.text5{
+  text-align: center;
+  color:#4d72cc;
+  font-size: 23px;
+}
+.text1{
+  text-align: center;
+ color:#4d72cc;
+ font-size: 20px;
+}
+.text2{
+  text-align: center;
+ color:#4d72cc;
+}
+.text3{
+  color:#4d72cc;
+}
+.text4{
+  color:#4d72cc;
+  font-size: 18px;
+  margin-left:20px;
+}
+/* Forthsection */
+.main-text{
+  background-color: #ffffff;
+}
+.maintext1{
+  color: #36414D;
+  font-size: 27px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+/* cardsection */
+.main-card{
+  background-color:#dfe9ff;
+  height: 672px;
+}
+.text6{
+  text-align: center;
+  font-size: 35px;
+}
+.container3{
+  display: flex;
+  width: 100%;
+  gap: 120px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Sixthsection */
+.main-con{
+  background-color: #ffffff;
+}
+.video{
+  margin-left: 372px;
+    margin-top: 49px;
+}
+/* Sevrnsection */
+.main-div{
+  background-color: #dfe9ff;
+}
+.container2{
+  width: 95%;
+  display: flex;
+  margin-left: 140px;
+  height: 589px;
+}
+.text8{
+  text-align: center;
+}
+/* Subsection */
+.sub{
+  display:flex;
+  background-color: #ffffff;
+}
+.left{
+  width: 50%;
+  margin-left: 284px;
+  font-size: 28px;
+  margin-top: 68px;
+}
+.right img{
+  width:50%;
+  width: 62%;
+  margin-top: 30px;
+}
+/* footer */
+.last-sec{
+  background-color:#222;
+  display:flex;
+}
+.copy{
+ 
+}
+.footer__list1{
+  list-style: none;
+  margin-left: 350px;
+}
+.footer__list2{
+  list-style: none;
+  margin-left: 558px;
+}
+/* Form */
+.main-form{
+  background-color:#eee;
+  box-sizing:border-box;
+  margin-top:30px;
+}
+
+form{
+  display:block;
+  background-color:#fff;
+  box-shadow:1px 1px 3px 2px #ddd;
+  margin:40px auto;
+  max-width:600px;
+  max-height:500px;
+  padding:20px 40px;
+
+}
+form input,textarea{
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  margin:15px auto;
+  padding:13px;
+  background-color:#f1f1f1;
+  border:1px solid #ddd;
+}
+form span{
+  color:rgb(29,185,237);
+}
+form button{
+  height:30px;
+  width:80px;
+  align-items:center;
+  border:none;
+  background-color:rgb(29,185,237);
+  color:#fff;
+  cursor:pointer;
+}
+/* course */
+.btn1{
+  padding: 20px;
+  width: 13%;
+  border: none;
+  border: 1px solid gray;
+  font-size: 20px;
+  margin: 10px;
+}
+.filds{
+  width: 19%;
+  height: 66px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-left: 746px;
+}
+.text10{
+  font-size: 33px;
+}
+
